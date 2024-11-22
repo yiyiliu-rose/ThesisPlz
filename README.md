@@ -1,8 +1,8 @@
 # ThesisPlz
 
-# PID
+PID
 
-# images
+images
 
 # cvd       0 negative  1 positive
 
