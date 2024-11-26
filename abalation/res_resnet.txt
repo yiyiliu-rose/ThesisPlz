@@ -1,0 +1,47 @@
+(myenv) yli3467@miner:~/bt/ablation$ python3 cnn.py
+Using device: cuda
+
+Total training rows in NLST_train.csv: 47658
+Total validation rows in NLST_val.csv: 11922
+Total training rows after dropping NA: 47658
+Total validation rows after dropping NA: 11922
+
+/home/yli3467/.local/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: The parameter `pretrained` is deprecated since 0.13 and may be removed in the future, please use `weights` instead.
+warnings.warn()
+/home/yli3467/.local/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for `weights` are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+warnings.warn()
+
+Epoch 1/5
+Train Loss: 0.3091 | Train Acc: 0.8966
+Val Loss: 0.3044 | Val Acc: 0.8995
+Epoch Time: 1m 23s
+
+Best model saved with Val Acc: 0.8995
+
+Epoch 2/5
+Train Loss: 0.2924 | Train Acc: 0.9023
+Val Loss: 0.2994 | Val Acc: 0.9007
+Epoch Time: 1m 28s
+
+Best model saved with Val Acc: 0.9007
+
+Epoch 3/5
+Train Loss: 0.2882 | Train Acc: 0.9037
+Val Loss: 0.2962 | Val Acc: 0.9016
+Epoch Time: 1m 26s
+
+Best model saved with Val Acc: 0.9016
+
+Epoch 4/5
+Train Loss: 0.2853 | Train Acc: 0.9044
+Val Loss: 0.2962 | Val Acc: 0.9009
+Epoch Time: 1m 26s
+
+Epoch 5/5
+Train Loss: 0.2852 | Train Acc: 0.9045
+Val Loss: 0.2962 | Val Acc: 0.9007
+Epoch Time: 1m 26s
+
+Best model loaded.
+
+Accuracy on validation set: 0.9016
