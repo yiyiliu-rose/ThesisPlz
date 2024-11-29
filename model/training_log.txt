@@ -1,0 +1,60 @@
+Epoch,Train Loss,Train Acc,Val Loss,Val Acc,Epoch Time
+1,0.3376,0.8949,0.3158,0.8956,21m 18s
+Best model saved at epoch 1 with Val Acc: 0.8956
+2,0.3164,0.8984,0.3124,0.8976,21m 21s
+Best model saved at epoch 2 with Val Acc: 0.8976
+3,0.3114,0.9022,0.3357,0.8952,21m 21s
+4,0.3015,0.9049,0.3091,0.9012,21m 25s
+Best model saved at epoch 4 with Val Acc: 0.9012
+5,0.2932,0.9074,0.3142,0.9019,21m 27s
+Best model saved at epoch 5 with Val Acc: 0.9019
+
+(myenv) yli3467@miner:~/bt/mo$ python3 main.py
+Using device: cuda
+Total training rows in NLST_train.csv: 47688
+Total validation rows in NLST_val.csv: 11922
+Total training rows after dropping NA: 47688
+Total validation rows after dropping NA: 11922
+Epoch 1/5
+----------
+Train Loss: 0.4885 | Train Acc: 0.8949                                                                                                
+Val   Loss: 0.3158 | Val   Acc: 0.8956
+Epoch Time: 21m 18s
+
+Best model saved with Val Acc: 0.8956
+
+Epoch 2/5
+----------
+Train Loss: 0.3164 | Train Acc: 0.8984                                                                                                
+Val   Loss: 0.3124 | Val   Acc: 0.8976
+Epoch Time: 21m 21s
+
+Best model saved with Val Acc: 0.8976
+
+Epoch 3/5
+----------
+Train Loss: 0.3114 | Train Acc: 0.9022                                                                                                                                                                   
+Val   Loss: 0.3357 | Val   Acc: 0.8952
+Epoch Time: 21m 21s
+
+Epoch 4/5
+----------
+Train Loss: 0.3015 | Train Acc: 0.9049                                                                                                                                                                   
+Val   Loss: 0.3091 | Val   Acc: 0.9012
+Epoch Time: 21m 25s
+
+Best model saved with Val Acc: 0.9012
+
+Epoch 5/5
+----------
+Train Loss: 0.2382:  50%|██████████████████████████████████████████████████████████████████████▏                                                                     | 1495/2981 [09:57<09:55,  2.50it/Train Loss: 0.2382:  50%|██████████████████████████████████████████████████████████████████████▎                                                                     | 1496/2981 [09:57<09:55,  2.50it/Train Loss: 0.2558:  50%|██████████████████████████████████████████████████████████████████████▎                                                                     | 1496/2981 [09:58<09:55,  2.50it/sTrain Loss: 0.2558:  50%|██████████████████████████████████████████████████████████████████████▎                                                                     | 1497/2981 [09:58<09:53,  2.50it/sTrain Loss: 0.2932 | Train Acc: 0.9074                                                                                                                                                                   
+Val   Loss: 0.3142 | Val   Acc: 0.9019
+Epoch Time: 21m 27s
+
+Best model saved with Val Acc: 0.9019
+
+Training complete. Epoch details saved to 'training_log.txt'.
+
+Best model loaded.
+
+Accuracy on validation set: 0.9019
