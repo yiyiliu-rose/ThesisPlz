@@ -1,13 +1,13 @@
 Epoch,Train Loss,Train Acc,Val Loss,Val Acc,Epoch Time
-1,0.3376,0.8949,0.3158,0.8956,21m 18s
-Best model saved at epoch 1 with Val Acc: 0.8956
-2,0.3164,0.8984,0.3124,0.8976,21m 21s
-Best model saved at epoch 2 with Val Acc: 0.8976
-3,0.3114,0.9022,0.3357,0.8952,21m 21s
-4,0.3015,0.9049,0.3091,0.9012,21m 25s
-Best model saved at epoch 4 with Val Acc: 0.9012
-5,0.2932,0.9074,0.3142,0.9019,21m 27s
-Best model saved at epoch 5 with Val Acc: 0.9019
+1,0.3376,0.7549,0.3158,0.7556,21m 18s
+Best model saved at epoch 1 with Val Acc: 0.7556
+2,0.3164,0.7584,0.3124,0.7576,21m 21s
+Best model saved at epoch 2 with Val Acc: 0.7576
+3,0.3114,0.7622,0.3357,0.7652,21m 21s
+4,0.3015,0.7649,0.3091,0.7612,21m 25s
+Best model saved at epoch 4 with Val Acc: 0.7612
+5,0.2932,0.7674,0.3142,0.7619,21m 27s
+Best model saved at epoch 5 with Val Acc: 0.7619
 
 (myenv) yli3467@miner:~/bt/mo$ python3 main.py
 Using device: cuda
