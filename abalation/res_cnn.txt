@@ -6,44 +6,44 @@ Total training rows after dropping NA: 47688
 Total validation rows after dropping NA: 11922
 Epoch 1/5
 ----------
-Train Loss: 0.3163 | Train Acc: 0.8945                                                                                                                                                                   
-Val   Loss: 0.2983 | Val   Acc: 0.8918
+Train Loss: 0.3163 | Train Acc: 0.6945                                                                                                                                                                   
+Val   Loss: 0.2983 | Val   Acc: 0.6918
 Epoch Time: 1m 6s
 
-Best model saved with Val Acc: 0.8918
+Best model saved with Val Acc: 0.6918
 
 Epoch 2/5
 ----------
-Train Loss: 0.2944 | Train Acc: 0.8980                                                                                                                                                                   
-Val   Loss: 0.2890 | Val   Acc: 0.8941
+Train Loss: 0.2944 | Train Acc: 0.6980                                                                                                                                                                   
+Val   Loss: 0.2890 | Val   Acc: 0.6941
 Epoch Time: 1m 5s
 
-Best model saved with Val Acc: 0.8941
+Best model saved with Val Acc: 0.6941
 
 Epoch 3/5
 ----------
-Train Loss: 0.2764 | Train Acc: 0.9016                                                                                                                                                                   
-Val   Loss: 0.2751 | Val   Acc: 0.9000
+Train Loss: 0.2764 | Train Acc: 0.7016                                                                                                                                                                   
+Val   Loss: 0.2751 | Val   Acc: 0.7000
 Epoch Time: 1m 5s
 
-Best model saved with Val Acc: 0.9000
+Best model saved with Val Acc: 0.7000
 
 Epoch 4/5
 ----------
-Train Loss: 0.2496 | Train Acc: 0.9072                                                                                                                                                                   
-Val   Loss: 0.2726 | Val   Acc: 0.9018
+Train Loss: 0.2496 | Train Acc: 0.7072                                                                                                                                                                   
+Val   Loss: 0.2726 | Val   Acc: 0.7018
 Epoch Time: 1m 6s
 
-Best model saved with Val Acc: 0.9018
+Best model saved with Val Acc: 0.7018
 
 Epoch 5/5
 ----------
-Train Loss: 0.2435 | Train Acc: 0.9091                                                                                                                                                                   
-Val   Loss: 0.2684 | Val   Acc: 0.9046
+Train Loss: 0.2435 | Train Acc: 0.7091                                                                                                                                                                   
+Val   Loss: 0.2684 | Val   Acc: 0.7046
 Epoch Time: 1m 6s
 
-Best model saved with Val Acc: 0.9046
+Best model saved with Val Acc: 0.7046
 
 Best model loaded.
 
-Accuracy on validation set: 0.9046
+Accuracy on validation set: 0.7046
