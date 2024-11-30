@@ -29,8 +29,8 @@ val_df = pd.read_csv(val_data_path)
 print(f"Total training rows in NLST_train.csv: {len(train_df)}")
 print(f"Total validation rows in NLST_val.csv: {len(val_df)}")
 
-train_df = train_df.dropna(subset=['images', 'cvd'])
-val_df = val_df.dropna(subset=['images', 'cvd'])
+train_df = train_df.dropna(subset=['images'])
+val_df = val_df.dropna(subset=['images'])
 
 print(f"Total training rows after dropping NA: {len(train_df)}")
 print(f"Total validation rows after dropping NA: {len(val_df)}")
